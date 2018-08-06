@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name ="keywords" content="Miko" />
+    <meta name="description" content="Miko" />
+    <meta name="author" content="Miko">
+	<meta name="copyright" content="&copy; " />
+    <link rel="shortcut icon" href="favicon.png"> 
+<title>360APP</title>
+<!--判断用户端
+<script src="http://siteapp.baidu.com/static/webappservice/uaredirect.js" type="text/javascript"></script><script type="text/javascript">uaredirect("http://z.666ft.cc");</script>-->
+<!--判断结束-->
+<!--------------------------------------动态背景-------------------------------->
+<link rel="stylesheet" type="text/css" href="common/css/lolihd.css" />
+<script type="text/javascript" src="common/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript">
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+    $active.addClass('last-active');
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+</script>
+<!--------------------------------------动态背景-------------------------------->
+<script type="text/javascript"language="javascript">function AddFavorite(sURL,sTitle){sURL=encodeURI(sURL);try{window.external.addFavorite(sURL,sTitle);}catch(e){try{window.sidebar.addPanel(sTitle,sURL,"");}catch(e){alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");}}}
+function SetHome(url){if(document.all){document.body.style.behavior='url(#default#homepage)';document.body.setHomePage(url);}else{alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");}}</script>
+</head>
+
+<body>
+
+
+<div id="lolihd">
+ <!--搜索-->
+<div class="so_lolihd">
+<div class="style_1">
+		<form action="http://360app.com/portal.php?s=" method="get" target="_blank" id="searchform">
+		<fieldset>
+			<input id="q" name="q" type="text" value="云加密" class="text_input" onblur="if(this.value==''){this.value='Miko';}" onfocus="if(this.value =='Miko') {this.value=''; }" />
+			<input name="" type="submit" value /> </fieldset>
+		</form>
+	</div>
+</div>
+<!--搜索结束-->
+<div class="lolihd_content">
+<div class="lolihd_preview_list">
+
+   <audio autoplay="autoplay"><source src="/1.mp3" type="audio/mpeg" /></audio> <a target="_blank" href="http://yunjiami.github.io/">云加密交易所</a>
+    <a target="_blank" href="http://lasthero3d.github.io/">最后的勇士3D</a>
+    <a target="_blank" href="http://yidaibi.github.io/">一键发币</a>
+ 
+    <a target="_blank" href="https://idex.market/">IDEX交易所</a>
+ 
+    <a target="_blank" href="https://powh.io/">PoWH 3D</a>
+     <a target="_blank" href="https://forkdelta.github.io/">ForkDelta交易所</a>
+    <a target="_blank" href="https://eth.town/">以太镇</a>
+ 
+    <a target="_blank" href="http://exitscam.me/3dplay">Fomo3D</a>
+ 
+    <a target="_blank" href="https://cryptokitties.co/">迷恋猫</a>
+    <a target="_blank" href="https://zethr.io/">Zethr</a>
+    <a target="_blank" href="http://exitscam.me/quick">Fomo3DSoon版</a>
+    <a target="_blank" href="https://www.bancor.network/">Bancor交易所</a>
+    <a target="_blank" href="https://dapp.review/dapp/280">以太域名</a>
+    <a target="_blank" href="https://www.etheremon.com/">以太小精灵</a>
+    <a target="_blank" href="https://ether.online/">以太传奇</a>
+    <a target="_blank" href="http://cryptogirl.game/">加密少女</a>
+</div>
+</div>
+
+</div>
+<div class="footer">
+Copyright 2017-2018 360APP <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260732760'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1260732760' type='text/javascript'%3E%3C/script%3E"));</script>  <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a> <a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a>
+</div>
+<!--------------------------------------动态背景-------------------------------->
+<div id="slideshow"> 
+ 
+<img src="common/images/000.jpg" alt="Miko" class="active"> 
+<img src="common/images/001.jpg" alt="Miko" />
+<img src="common/images/002.jpg" alt="Miko" /> 
+<img src="common/images/003.jpg" alt="Miko" /> 
+<img src="common/images/004.jpg" alt="Miko" />
+<img src="common/images/005.jpg" alt="Miko" />
+<img src="common/images/006.jpg" alt="Miko" /> 
+<img src="common/images/007.jpg" alt="Miko" />
+<img src="common/images/008.jpg" alt="Miko" /> 
+<img src="common/images/009.jpg" alt="Miko" />
+<img src="common/images/010.jpg" alt="Miko" /> 
+</div>
+<!--------------------------------------动态背景-------------------------------->
+
+
+
+
+</body>
+</html>
+
